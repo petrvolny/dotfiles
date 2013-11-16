@@ -1,0 +1,21 @@
+[user]
+	name = Petr Volny
+	mail = petr.volny@gooddata.com
+	email = petr.volny@gooddata.com
+[core]
+	excludesfile = /Users/petrvolny/.gitignore_global
+	editor = /usr/bin/vim
+[github]
+	token = eceba47dfd16222629289cdc0429f57f
+[color]
+	ui = true
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    br = branch
+    l = log --graph
+    changes = diff --name-status -r
+    update-master = "!git fetch upstream; git pull --rebase upstream master"
+    edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`""})"
+    add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`""})"
