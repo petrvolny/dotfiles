@@ -11,8 +11,10 @@
 	ui = true
 [alias]
     ci = commit
+    cp = cherry-pick
     co = checkout
     st = status
+    cl = clone
     br = branch
     l = log --graph
     changes = diff --name-status -r
