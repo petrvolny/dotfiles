@@ -1,7 +1,7 @@
 [user]
 	name = Petr Volny
-	mail = petr.volny@gooddata.com
-	email = petr.volny@gooddata.com
+	mail = volny.petr@gmail.com
+	email = volny.petr@gmail.com
 [core]
 	excludesfile = /Users/petrvolny/.gitignore_global
 	editor = /usr/bin/vim
