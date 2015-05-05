@@ -18,6 +18,7 @@
     br = branch
     l = log --graph
     changes = diff --name-status -r
+    diffs = diff --staged
     update-master = "!git fetch upstream; git pull --rebase upstream master"
     edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`""})"
     add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`""})"
