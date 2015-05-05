@@ -4,7 +4,7 @@
 	email = volny.petr@gmail.com
 [core]
 	excludesfile = /Users/petrvolny/.gitignore_global
-	editor = /usr/bin/vim
+	editor = /usr/local/bin/vim
 [github]
 	token = eceba47dfd16222629289cdc0429f57f
 [color]
