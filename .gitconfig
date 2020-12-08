@@ -4,7 +4,7 @@
 	email = volny.petr@gmail.com
 [core]
 	excludesfile = /Users/petrvolny/.gitignore_global
-	editor = /usr/local/bin/vim
+	editor = /usr/local/bin/nvim
 [github]
 	token = eceba47dfd16222629289cdc0429f57f
 [color]
@@ -17,8 +17,8 @@
     cl = clone
     br = branch
     l = log --graph
-    changes = diff --name-status -r
     diffs = diff --staged
+    changes = diff --name-status -r
     update-master = "!git fetch upstream; git pull --rebase upstream master"
     edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`""})"
     add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`""})"
